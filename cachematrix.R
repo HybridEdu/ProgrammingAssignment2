@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## calculate inverse of matrix or get iverse of matrix if cached exists
+## get iverse of matrix if cached exists or solve(calculate) inverse of matrix
 
 cacheSolve <- function(x, ...) {
 	inv <- x$getinv()
